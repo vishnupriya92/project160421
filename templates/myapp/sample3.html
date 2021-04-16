@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample3</title>
+</head>
+<body>
+    <h1>Welcome to sample3</h1>
+    <h2>Data Carried from Backend {{name}}</h2>
+    <a href="{% url 'sample1' %}">Sample1</a>
+    <br><a href="{% url 'myapp:sample2' data=name %}">Sample2</a>
+</body>
+</html>
